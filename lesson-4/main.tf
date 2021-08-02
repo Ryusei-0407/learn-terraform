@@ -31,7 +31,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 }
 
-output "instance_id_addr" {
+output "instance_ip_addr" {
   value       = aws_instance.web.private_ip
   description = "The private IP address of the main server instance."
 }
