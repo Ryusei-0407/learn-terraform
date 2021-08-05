@@ -13,9 +13,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-variable "aws_region" {
-  default = "ap-northeast-1"
-}
+variable "aws_region" {}
 
 variable "amis" {
   type = map(any)
