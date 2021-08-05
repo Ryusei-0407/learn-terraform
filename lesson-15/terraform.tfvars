@@ -1,2 +1,2 @@
 aws_region = "ap-northeast-1"
-subnet_id  = ""
+instance_type = "t2.micro"
