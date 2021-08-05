@@ -12,3 +12,7 @@ variable "amis" {
 }
 
 variable "instance_type" {}
+
+variable "cidr_block" {}
+
+variable "subnet_cidr_block" {}
